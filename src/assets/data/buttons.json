@@ -1,0 +1,24 @@
+{
+  "buttons": [
+    {
+      "label": "Pacific Time",
+      "timezone": "America/Los_Angeles",
+      "tag": "pt"
+    },
+    {
+      "label": "Eastern Time",
+      "timezone": "America/New_York",
+      "tag": "et"
+    },
+    {
+      "label": "Western Time",
+      "timezone": "Antarctica/Casey",
+      "tag": "wt"
+    },
+    {
+      "label": "Greenwich Mean Time",
+      "timezone": "Europe/London",
+      "tag": "gmt"
+    }
+  ]
+}
