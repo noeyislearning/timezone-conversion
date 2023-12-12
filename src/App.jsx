@@ -4,7 +4,7 @@ import { useState, useEffect } from "react"
 import { ArrowRightIcon } from "@heroicons/react/24/outline"
 
 /** Components */
-import Button from "./components/buttons/Button"
+import Button from "./components/common/buttons/Button"
 import Spinner from "./components/common/spinners/Spinner"
 
 /** API */
