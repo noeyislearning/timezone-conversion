@@ -1,10 +1,10 @@
 import moment from "moment";
 
 const CORS_PROXY = 'https://cors-anywhere.herokuapp.com/';
-const BASE_URL = `${CORS_PROXY}https://www.timeapi.io/api`;
+const BASE_URL = `https://www.timeapi.io/api`;
 
 export async function convertTimezone(fromTimeZone, toTimeZone, dateTime) {
-  const apiUrl = `${BASE_URL}/Conversion/ConvertTimeZone`;
+  const apiUrl = `${CORS_PROXY}${BASE_URL}/Conversion/ConvertTimeZone`;
 
   const formattedDateTime = moment(dateTime).format('YYYY-MM-DD HH:mm:ss');
 
