@@ -73,7 +73,7 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col items-center gap-4 md:flex-col lg:flex-row">
+        <div className="mt-4 flex flex-col items-center gap-4 md:flex-col lg:flex-row">
           { buttonsData.buttons.map((button, index) => (
             <Button
               key={index}
