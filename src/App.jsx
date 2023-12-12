@@ -5,12 +5,14 @@ import { ArrowRightIcon } from "@heroicons/react/24/outline"
 
 /** Components */
 import Button from "./components/buttons/Button"
+import Spinner from "./components/common/spinners/Spinner"
 
 /** API */
 import { convertTimezone } from "./api/timeAPI"
 
 /** Data (JSON) */
 import buttonsData from "./assets/data/buttons.json"
+
 
 function App() {
   const [currentTime, setCurrentTime] = useState(new Date().toLocaleTimeString())
@@ -20,6 +22,7 @@ function App() {
   const [clickCount, setClickCount] = useState(0)
   const [showWarning, setShowWarning] = useState(false)
   const [disableButtons, setDisableButtons] = useState(false)
+  const [isLoading, setIsLoading] = useState(false)
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -56,15 +59,19 @@ function App() {
 
   const handlePickedTime = async (timezone) => {
     try {
-      const picked = new Date().toISOString()
-      setPickedTime(formatTime(picked))
+      setIsLoading(true); 
 
-      const converted = await convertTimezone("Asia/Manila", timezone, picked)
-      setConvertedTime(formatTime(converted))
+      const picked = new Date().toISOString();
+      setPickedTime(formatTime(picked));
+
+      const converted = await convertTimezone("Asia/Manila", timezone, picked);
+      setConvertedTime(formatTime(converted));
     } catch (error) {
-      console.error("Error converting time:", error)
+      console.error("Error converting time:", error);
+    } finally {
+      setIsLoading(false);
     }
-  }
+  };
 
   const handleClick = async (timezone) => {
     if (!disableButtons) {
@@ -92,7 +99,7 @@ function App() {
               </div>
               <ArrowRightIcon className="w-5 h-5"/>
               <div className="flex flex-col items-center">
-                <h1 className="text-2xl font-bold">{convertedTime || '-'}</h1>
+                <h1 className="text-2xl font-bold">{convertedTime || (isLoading ? <Spinner /> : "-")}</h1>
                 <p className="-mt-1 text-sm text-gray-500">Converted Time</p>
               </div>
             </div>
