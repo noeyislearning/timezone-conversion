@@ -1,19 +1,219 @@
 {
   "buttons": [
     {
-      "label": "Pacific Time",
+      "label": "International Date Line West",
+      "timezone": "Etc/GMT+12",
+      "tag": "idlw"
+    },
+    {
+      "label": "Samoa Standard Time",
+      "timezone": "Pacific/Apia",
+      "tag": "sst"
+    },
+    {
+      "label": "Hawaii-Aleutian Standard Time",
+      "timezone": "Pacific/Honolulu",
+      "tag": "hast"
+    },
+    {
+      "label": "Alaska Standard Time",
+      "timezone": "America/Anchorage",
+      "tag": "akst"
+    },
+    {
+      "label": "Pacific Standard Time",
       "timezone": "America/Los_Angeles",
-      "tag": "pt"
+      "tag": "pst"
     },
     {
-      "label": "Eastern Time",
+      "label": "Mountain Standard Time",
+      "timezone": "America/Denver",
+      "tag": "mst"
+    },
+    {
+      "label": "Central Standard Time",
+      "timezone": "America/Chicago",
+      "tag": "cst"
+    },
+    {
+      "label": "Eastern Standard Time",
       "timezone": "America/New_York",
-      "tag": "et"
+      "tag": "est"
     },
     {
-      "label": "Western Time",
-      "timezone": "Antarctica/Casey",
-      "tag": "wt"
+      "label": "Atlantic Standard Time",
+      "timezone": "America/Halifax",
+      "tag": "ast"
+    },
+    {
+      "label": "Newfoundland Standard Time",
+      "timezone": "America/St_Johns",
+      "tag": "nst"
+    },
+    {
+      "label": "Fernando de Noronha Time",
+      "timezone": "America/Noronha",
+      "tag": "fnt"
+    },
+    {
+      "label": "Amazon Standard Time",
+      "timezone": "America/Manaus",
+      "tag": "amt"
+    },
+    {
+      "label": "Brasília Time",
+      "timezone": "America/Sao_Paulo",
+      "tag": "brt"
+    },
+    {
+      "label": "Uruguay Standard Time",
+      "timezone": "America/Montevideo",
+      "tag": "uyt"
+    },
+    {
+      "label": "South Georgia Time",
+      "timezone": "Atlantic/South_Georgia",
+      "tag": "gst"
+    },
+    {
+      "label": "Falkland Islands Time",
+      "timezone": "Atlantic/Stanley",
+      "tag": "fkt"
+    },
+    {
+      "label": "West Greenland Time",
+      "timezone": "America/Godthab",
+      "tag": "wgt"
+    },
+    {
+      "label": "Newfoundland Daylight Time",
+      "timezone": "America/St_Johns",
+      "tag": "ndt"
+    },
+    {
+      "label": "Atlantic Daylight Time",
+      "timezone": "America/Halifax",
+      "tag": "adt"
+    },
+    {
+      "label": "Eastern Daylight Time",
+      "timezone": "America/New_York",
+      "tag": "edt"
+    },
+    {
+      "label": "Central Daylight Time",
+      "timezone": "America/Chicago",
+      "tag": "cdt"
+    },
+    {
+      "label": "Mountain Daylight Time",
+      "timezone": "America/Denver",
+      "tag": "mdt"
+    },
+    {
+      "label": "Pacific Daylight Time",
+      "timezone": "America/Los_Angeles",
+      "tag": "pdt"
+    },
+    {
+      "label": "Alaska Daylight Time",
+      "timezone": "America/Anchorage",
+      "tag": "akdt"
+    },
+    {
+      "label": "Hawaii-Aleutian Daylight Time",
+      "timezone": "Pacific/Honolulu",
+      "tag": "hadt"
+    },
+    {
+      "label": "Chamorro Standard Time",
+      "timezone": "Pacific/Guam",
+      "tag": "chst"
+    },
+    {
+      "label": "Australian Central Western Time",
+      "timezone": "Australia/Eucla",
+      "tag": "acwst"
+    },
+    {
+      "label": "Australian Central Time",
+      "timezone": "Australia/Adelaide",
+      "tag": "acst"
+    },
+    {
+      "label": "Australian Eastern Time",
+      "timezone": "Australia/Sydney",
+      "tag": "aest"
+    },
+    {
+      "label": "Lord Howe Standard Time",
+      "timezone": "Australia/Lord_Howe",
+      "tag": "lhst"
+    },
+    {
+      "label": "Norfolk Time",
+      "timezone": "Pacific/Norfolk",
+      "tag": "nft"
+    },
+    {
+      "label": "Vanuatu Time",
+      "timezone": "Pacific/Efate",
+      "tag": "vut"
+    },
+    {
+      "label": "Solomon Islands Time",
+      "timezone": "Pacific/Guadalcanal",
+      "tag": "sbt"
+    },
+    {
+      "label": "New Caledonia Time",
+      "timezone": "Pacific/Noumea",
+      "tag": "nct"
+    },
+    {
+      "label": "Papua New Guinea Time",
+      "timezone": "Pacific/Port_Moresby",
+      "tag": "pgt"
+    },
+    {
+      "label": "Gilbert Island Time",
+      "timezone": "Pacific/Tarawa",
+      "tag": "gilt"
+    },
+    {
+      "label": "Marshall Islands Time",
+      "timezone": "Pacific/Majuro",
+      "tag": "mht"
+    },
+    {
+      "label": "Wake Island Time",
+      "timezone": "Pacific/Wake",
+      "tag": "wakt"
+    },
+    {
+      "label": "Line Islands Time",
+      "timezone": "Pacific/Kiritimati",
+      "tag": "lint"
+    },
+    {
+      "label": "New Zealand Standard Time",
+      "timezone": "Pacific/Auckland",
+      "tag": "nzst"
+    },
+    {
+      "label": "Chatham Standard Time",
+      "timezone": "Pacific/Chatham",
+      "tag": "chast"
+    },
+    {
+      "label": "Tokelau Time",
+      "timezone": "Pacific/Fakaofo",
+      "tag": "tkt"
+    },
+    {
+      "label": "Phoenix Island Time",
+      "timezone": "Pacific/Enderbury",
+      "tag": "phot"
     },
     {
       "label": "Greenwich Mean Time",
