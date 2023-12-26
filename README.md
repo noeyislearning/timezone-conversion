@@ -1,8 +1,8 @@
-# Time Conversion
+# Timezone Conversion
 
-![Imgur](https://i.imgur.com/I1tsABN.png)
+![Imgur](https://i.imgur.com/oMKu0k7.png)
 
-Time Conversion, designed to effortlessly convert the current time to various time zones, including Pacific Time, Eastern Time, Western Time, and GMT.
+Timezone Conversion, a simple web application that converts the current time to the other time zones such as Pacific/Apia, America/Los_Angeles, America/New_York, Europe/London, and so on.
 
 ## Built With
 
@@ -34,17 +34,7 @@ Time Conversion, designed to effortlessly convert the current time to various ti
 
 - Once the application is running locally, you can access it at `http://localhost:5173/`.
 
-- Go to your browser's console then once you saw an error message such as this:
-
-  ```bash
-  POST https://cors-anywhere.herokuapp.com/https://www.timeapi.io/api/Conversion/ConvertTimeZone
-  ```
-
-- Click this **[link](https://cors-anywhere.herokuapp.com/https://www.timeapi.io/api/Conversion/ConvertTimeZone)** and click the button `Request temporary access to the demo server` to allow the application to access the API.
-
-- Refresh the page and you should be able to use the application.
-
-⚠️ Additional, you can also access the application at **[timeconversion.noeyislearning.dev](https://timeconversion.noeyislearning.dev/)** but still need to follow the steps above.
+⚠️ Additional, you can also access the application at **[timeconversion.noeyislearning.dev](https://timeconversion.noeyislearning.dev/)**.
 
 ## Usage
 
@@ -60,3 +50,8 @@ NOTE: Western TIme doesn't have a specific time zone, so it will just display th
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Updates
+
+- **[2023-12-12]**: Initial release.
+- **[2023-12-26]**: Remove API reliance and use JavaScript's built-in `Date` object instead for better performance and reliability.
