@@ -38,20 +38,14 @@ Timezone Conversion, a simple web application that converts the current time to 
 
 ## Usage
 
-- The application will automatically convert the current time to the following time zones:
-
-  - Pacific Time
-  - Eastern Time
-  - Western Time
-  - GMT (Greenwich Mean Time)
-
-NOTE: Western TIme doesn't have a specific time zone, so it will just display the time that was based online.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+- Select the timezone you want to convert to.
+- The application will automatically convert the current time to the selected timezone.
 
 ## Updates
 
 - **[2023-12-12]**: Initial release.
 - **[2023-12-26]**: Remove API reliance and use JavaScript's built-in `Date` object instead for better performance and reliability.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
